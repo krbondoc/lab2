@@ -2,24 +2,126 @@
 <html>
 <head>
   <link rel="stylesheet" href="styles.css">
-  <title>KYLENE'S WONDERLAND</title>
-<link rel="icon" type="image/x-icon" href="week3/wonderland.ico">
+  <title>K's Land'</title>
+  <link rel="shortcut icon" href ="lab2\week3\wonderland.ico" type="text/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Sevillana&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- Style Format CSS -->
+  <section class="hero">
+    <div class="main-width">
+      <header>
+        <div class="logo">
+          <h2 style="font-family: 'Sevillana', cursive;"><a href="#">K's Land</a></h2>
+        </div>
+        <nav>
+          <ul>
+            <li class="active"><a href="#">HTML/CSS Journey</a></li>
+            <li><a href="#">About Kyian</a></li>
+            <li><a href="#">Interesting Aspects in Life</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+  </section>
+  <section class="content">
+    <div class="title-page">
+      <header>
+      <h1>KYIAN</h1>
+      <p>Asia Pacific College <br>BS in Computer Science <br>Cybersecurity and Forensics <br>SF212, SOCIT Batch 2021</p>
+      </header>
+  </div>
+</section>
+  <!-- Style Format CSS --> 
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Sevillana&display=swap');
     /* body style */
     body {
       background-image: url('https://giffiles.alphacoders.com/215/215595.gif');
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
+      overflow-x: hidden;
+    }
+    .main-width{
+      width: 1400px;
+      max-width: 95%;
+      margin: 0 auto;
+    }
+    .hero{
+      height: 100%;
+      width: 100%;
+      min-height: 100 vh;
+      background: transparent;
+      position: relative;
+    }
+    .hero header .logo h2 a{
+      display: block;
+      font-size: 32px;
+      font-weight: 600;
+      text-decoration: none;
+      color: white;
+    }
+    .hero header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 0 10px;
+    }
+    nav ul li{
+      list-style: none;
+      display: inline-block;
+    }
+    nav ul li a{
+      text-decoration: none;
+      color: white;
+      margin-left: 30px;
+      font-size: 15px;
+      font-weight: 600;
+      border-bottom: 2px solid transparent;
+      transition: .4s;
+    }
+    nav ul li:not(:last-child) a:hover,
+    nav ul li:not(:last-child) a:focus{
+      border-bottom: 2px solid white;
     }
     div {
       width: 320px;
       padding: 10px;
-      border: 5px solid rgb(255, 255, 255);
       margin: 0;
+    }
+    .content .title-page{
+      position: relative;
+      z-index: 2;
+      margin-bottom: 50px;
+    }
+    .content{
+      padding-top: 140px;
+    }
+    .content .title-page h1{
+      margin-left: 30px;
+      font-size: 75px;
+      letter-spacing: 10px;
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: black;
+      font-family:'Cinzel Decorative', cursive;
+      line-height: 1;
+      color: rgb(255, 255, 255);
+    }
+    .content .title-page p{
+      width: 350px;
+      margin-left: 30px;
+      padding-top: 10px;
+      text-align: left;
+      background-color:rgba(247, 0, 255, 0.514);
+      font-size: 20px;
+      font-weight: bold;
+      font-family: comic san ms, cursive;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black;
+      line-height: 1.4;
+      color: white;
     }
     /* image style */
     img {
@@ -38,7 +140,7 @@
     </style>
 <!-- Upper part -->
 <h1 style="text-align:center; color:white; font-size:350%; font-family: luminari, fantasy">K---Y---I---A---N</h1>
-<h2 style="text-align:center; color:white">Asia Pacifc College || Bachelor of Science in Computer Science - Cybersecurity and Forensics || SF212</h2>
+<h2 style="text-align:center; color:white">Asia Pacific College || Bachelor of Science in Computer Science - Cybersecurity and Forensics || SF212</h2>
 <h3 style="text-align:center; color:white; background-color:rgba(255, 0, 200, 0.336); outline-style: double; outline-width: 5px; outline-color: rgb(119, 50, 158); outline-offset: 5px; margin-top:20px"><i>Public HS Graduate - 50%</i></h3>
 <!-- Image -->
 <center><img src="https://pbs.twimg.com/media/FkcTG3cVsAEib-z?format=jpg&name=medium" width="300" height="475" ></center>
@@ -46,7 +148,7 @@
 <h4 style="text-align:center; color:rgb(243, 82, 189); font-size:175%; font-family: comic sans ms, cursive">~Welcome to my Wonderland~</h4>
   <p style="text-align:left; font-size:125%; font-family: comic sans ms, cursive">High School Dimension:</p>
   <p style="text-align:left; border:2px solid rgb(104, 0, 104); font-family: comic sans ms, cursive"><b>TAGUIG SCIENCE HIGH SCHOOL - STEM Graduate</b></p>
-  <p style="text-align:justify; font-family: comic sans ms, cursive">Hello! I am Kylene Bondoc and this is my output! It is still under development and will prolly contain more contents about myself in the future. I am currently testing what I have learned from my WEBPROG Class by
+  <p style="text-align:justify; font-family: sevi">Hello! I am Kylene Bondoc and this is my output! It is still under development and will prolly contain more contents about myself in the future. I am currently testing what I have learned from my WEBPROG Class by
     creating this website. If you have suggestions and comments about my output, please contact me at my MS Teams Account: Kylene Naiomi Bondoc. Have fun browsing! Thank you. :)</p>
 <p style="text-align:justify; color:white; line-height: 1.5"><b>IT Experience</b><br> So far, the programming languages that I have learned were Python and Java. I have a background in HTML during SHS.</p>
 <p style="text-align:justify; color:white"><b>Hobbies</b> <br>These are some of my hobbies for now:<ul style="color:rgb(162, 133, 241); margin:20px">
