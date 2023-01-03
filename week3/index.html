@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>K's CodeLand'</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="styles.css">
-  <title>K's Land'</title>
   <link rel="shortcut icon" href ="lab2\week3\wonderland.ico" type="text/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Sevillana&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Sevillana&display=swap" rel="stylesheet">
 </head>
 <body>
   <section class="hero">
     <div class="main-width">
       <header>
         <div class="logo">
-          <h2 style="font-family: 'Sevillana', cursive;"><a href="#">K ' s  L a n d</a></h2>
+          <h2 style="font-family: 'Sevillana', cursive;"><a href="#">K ' s  C o d e L a n d</a></h2>
         </div>
         <nav>
           <ul>
@@ -23,20 +25,30 @@
           </ul>
         </nav>
       </header>
-    </div>
+      </div>
   </section>
   <section class="content">
-    <div class="title-page">
-      <h1>KYIAN</h1>
-      <p>>> Asia Pacific College <br>>> BS in Computer Science <br>>> Cybersecurity and Forensics <br>>> SF212, SOCIT Batch 2021</p>
-    </div>
     <div class="img-portrait">
-      <img src="https://pbs.twimg.com/media/FkcTG3cVsAEib-z?format=jpg&name=medium" width="300" height="475">
-    </div>
+      <div class="column">
+        <img src="https://pbs.twimg.com/media/FkcTG3cVsAEib-z?format=jpg&name=medium" width="150" height="200">
+        <img src="https://pbs.twimg.com/media/FlhWpkfaYAAORz9?format=jpg&name=medium" width="150" height="200">
+      </div>
+      <div class="column">
+        <img src="https://pbs.twimg.com/media/FlhWp2hacAEP1nH?format=jpg&name=medium" width="150" height="200">
+        <img src="https://pbs.twimg.com/media/FlhWpStagAYWt9_?format=jpg&name=medium" width="150" height="200">
+      </div>
+  </section>
+</div>
+<section class="introduction">
+  <div class="title-page">
+    <h1>KYIAN</h1>
+    <p>Kylene Naiomi Bondoc or Kyian, is drawn to SFSSMI212 Codeland by her fascination of all things related to technology and coding. As she explores this strange and challenging world, she discovers that there are endless opportunities for learning and growth. Together with her fellow citizens at Codeland SFSSMI212, they use their coding and programming skills to push the boundaries of what is possible and make it a better place for everyone.</p>
+  </div>
 </section>
   <!-- Style Format CSS --> 
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Sevillana&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
     /* body style */
     body {
       background-image: url('https://giffiles.alphacoders.com/215/215595.gif');
@@ -80,7 +92,7 @@
       text-decoration: none;
       color: white;
       margin-left: 30px;
-      font-size: 20px;
+      font-size: 16px;
       font-weight: 600;
       border-bottom: 2px solid transparent;
       transition: .4s;
@@ -89,60 +101,56 @@
     nav ul li:not(:last-child) a:focus{
       border-bottom: 2px solid white;
     }
-    div {
-      width: 500px;
-      padding: 0px;
-      margin: 0;
-    }
     .content{
-      padding-top: 10px;
+      padding-top: 50px;
     }
-    .content .title-page{
-      float:left;
-      position: relative;
-      margin-bottom: 50px;
+    .introduction .title-page{
+      padding: 50px;
+      align-content: center;
+      width: 1150px;
     }
-    .content .title-page h1{
-      margin-left: 30px;
-      font-size: 75px;
-      text-align: left;
+    .introduction .title-page h1{
+      font-size: 100px;
+      text-align: center;
       letter-spacing: 10px;
-      width: min-content;
       -webkit-text-stroke-width: 2px;
-      -webkit-text-stroke-color: black;
+      -webkit-text-stroke-color: rgb(255, 255, 255);
       font-family:'Cinzel Decorative', cursive;
       line-height: 1;
-      color: rgb(255, 255, 255);
+      background: -webkit-linear-gradient(rgb(115, 1, 157),rgb(255, 0, 191));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
-    .content .title-page p{
-      width: 330px;
-      margin-left: 30px;
+    .introduction .title-page p{
       padding: 10px 0;
       text-align: left;
       outline-color: rgb(76, 25, 123);
       outline-style: double;
       outline-width: 5px;
-      font-size: 20px;
+      outline-offset: 7px;
+      font-size: 18px;
       font-weight: bold;
-      font-family: comic san ms, cursive;
-      -webkit-text-stroke-width: 1px;
-      -webkit-text-stroke-color: black;
+      font-family: 'Forum', cursive;
+      text-align: justify;
       line-height: 1.4;
       color: white;
     }
     .content .img-portrait{
-      float: right;
+      display: flex;
+      flex-wrap: wrap;
       position: relative;
     }
-    /* image style */
-    img {
-      border-radius: 50%;
-      margin:20px;
+    .content .column {
+      flex: 50%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      padding: 0 2px;
     }
-    /* text style */
-    h4 {
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    .content .column img {
+      vertical-align: middle;
     }
     p {
       color: white;
