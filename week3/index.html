@@ -30,12 +30,12 @@
   <section class="content">
     <div class="img-portrait">
       <div class="column">
-        <img src="https://pbs.twimg.com/media/FkcTG3cVsAEib-z?format=jpg&name=medium" width="200" height="300">
-        <img src="https://pbs.twimg.com/media/FlhWpkfaYAAORz9?format=jpg&name=medium" width="200" height="300">
+        <img src="https://pbs.twimg.com/media/FkcTG3cVsAEib-z?format=jpg&name=medium" width="150" height="200">
+        <img src="https://pbs.twimg.com/media/FlhWpkfaYAAORz9?format=jpg&name=medium" width="150" height="200">
       </div>
       <div class="column">
-        <img src="https://pbs.twimg.com/media/FlhWp2hacAEP1nH?format=jpg&name=medium" width="200" height="300">
-        <img src="https://pbs.twimg.com/media/FlhWpStagAYWt9_?format=jpg&name=medium" width="200" height="300">
+        <img src="https://pbs.twimg.com/media/FlhWp2hacAEP1nH?format=jpg&name=medium" width="150" height="200">
+        <img src="https://pbs.twimg.com/media/FlhWpStagAYWt9_?format=jpg&name=medium" width="150" height="200">
       </div>
   </div>
   <div class="title-page">
@@ -99,16 +99,22 @@
     nav ul li:not(:last-child) a:focus{
       border-bottom: 2px solid white;
     }
+}
     .content{
-      padding-top: 50px;
+      width: 50%;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
     .content .title-page{
-      padding: 50px;
-      width: auto;
+      padding: 35px;
+      width: 750px;
+      background-color:rgba(50, 205, 50, 0);  
+      float: right;
     }
     .content .title-page h1{
-      font-size: 100px;
-      text-align: center;
+      font-size: 150px;
       letter-spacing: 10px;
       -webkit-text-stroke-width: 2px;
       -webkit-text-stroke-color: rgb(255, 255, 255);
@@ -120,13 +126,14 @@
     }
     .content .title-page p{
       padding: 10px 0;
-      text-align: center;
+      margin-right:90px;
+      margin-top:40px;
       outline-color: rgb(116, 10, 215);
       outline-style: double;
       outline-width: 5px;
       outline-offset: 7px;
       background-color: rgba(0, 0, 0, 0.648);
-      font-size: 18px;
+      font-size: 20px;
       font-weight: bold;
       font-family: 'Forum', cursive;
       text-align: justify;
@@ -135,21 +142,26 @@
     }
     .content .img-portrait{
       display: flex;
+      width: 350px;
+      float: left;
+      margin-top:35px;
+      margin-left: 90px;
       flex-wrap: wrap;
       position: relative;
+      background-color:rgba(205, 55, 50, 0);  
     }
     .content .column {
       flex: 50%;
       display: flex;
       flex-wrap: wrap;
       align-items: center;
-      justify-content: center;
+      justify-content: left;
       position: relative;
-      padding: 0 2px;
+      padding: 0 1px;
     }
     .content .column img {
-      border-radius: 20px;
-      padding: 10px;
+      border-radius: 10px;
+      padding: 5px;
       vertical-align: middle;
     }
     p {
