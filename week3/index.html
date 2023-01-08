@@ -64,8 +64,8 @@
       height: 100%;
       width: 100%;
       min-height: 100 vh;
-      background: linear-gradient(black, 70%, rgb(26, 2, 36));
       position: sticky;
+      background: linear-gradient(black, 80%, rgb(58, 1, 58));
       top: 0;
       z-index: 100;
     }
@@ -80,7 +80,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 20px 0 10px;
+      padding: 10px 0 5px;
     }
     nav ul li{
       list-style: none;
@@ -88,16 +88,17 @@
     }
     nav ul li a{
       text-decoration: none;
-      color: white;
+      color: rgb(255, 255, 255);
       margin-left: 30px;
-      font-size: 16px;
+      font-size: 20px;
+      font-family: 'Forum', cursive;
       font-weight: 600;
       border-bottom: 2px solid transparent;
       transition: .4s;
     }
     nav ul li:not(:last-child) a:hover,
     nav ul li:not(:last-child) a:focus{
-      border-bottom: 2px solid white;
+      border-bottom: 2px solid rgb(255, 170, 215);
     }
 }
     .content{
@@ -108,8 +109,8 @@
       justify-content: center;
     }
     .content .title-page{
-      padding: 35px;
-      width: 750px;
+      padding: 20px;
+      width: 60%;
       background-color:rgba(50, 205, 50, 0);  
       float: right;
     }
@@ -142,16 +143,15 @@
     }
     .content .img-portrait{
       display: flex;
-      width: 350px;
+      width: 35%;
+      padding-top: 22px;
       float: left;
-      margin-top:35px;
-      margin-left: 90px;
       flex-wrap: wrap;
       position: relative;
       background-color:rgba(205, 55, 50, 0);  
     }
     .content .column {
-      flex: 50%;
+      flex: 20%;
       display: flex;
       flex-wrap: wrap;
       align-items: center;
@@ -160,8 +160,8 @@
       padding: 0 1px;
     }
     .content .column img {
-      border-radius: 10px;
-      padding: 5px;
+      border-radius: 20px;
+      padding: 13px;
       vertical-align: middle;
     }
     p {
