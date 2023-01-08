@@ -37,7 +37,7 @@
         </nav>
       </header>
       </div>
-        <div class="half">
+        <div class="left">
           <div class="column">
             <img src="https://pbs.twimg.com/media/FkcTG3cVsAEib-z?format=jpg&name=medium" width="150" height="200">
             <img src="https://pbs.twimg.com/media/FlhWpkfaYAAORz9?format=jpg&name=medium" width="150" height="200">
@@ -47,7 +47,7 @@
             <img src="https://pbs.twimg.com/media/FlhWpStagAYWt9_?format=jpg&name=medium" width="150" height="200">
           </div>
         </div>
-        <div class="half">
+        <div class="right">
           <h1>KYIAN</h1>
           <p>Kylene Naiomi Bondoc or Kyian, is drawn to SFSSMI212 Codeland by her fascination of all things related to technology and coding. As she explores this strange and challenging world, she discovers that there are endless opportunities for learning and growth. Together with her fellow citizens at Codeland SFSSMI212, they use their coding and programming skills to push the boundaries of what is possible and make it a better place for everyone.</p>
         </div>
@@ -108,11 +108,15 @@
     nav ul li:not(:last-child) a:focus{
       border-bottom: 2px solid white;
     }
-    .half {
+    .left {
       width: 30%;
       float: left;
     }
-    .half .column {
+    .right {
+      width: 70%;
+      float: left;
+    }
+    .left .column {
       flex: 50%;
       display: flex;
       flex-wrap: wrap;
@@ -122,12 +126,12 @@
       position: relative;
       padding: 0 1px;
     }
-    .half .column img {
+    .left .column img {
       border-radius: 20px;
       padding: 13px;
       vertical-align: middle;
     }
-    .half h1{
+    .right h1{
       font-size: 150px;
       letter-spacing: 10px;
       -webkit-text-stroke-width: 2px;
@@ -138,7 +142,7 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
-    .half p{
+    .right p{
       padding: 10px 0;
       margin-right:90px;
       margin-top:40px;
