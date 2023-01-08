@@ -96,7 +96,34 @@
     </a>
     <div class="desc">Kyian: Last Christmas!</div>
   </div>
+  <div class="content">
+    <div class="left">
+      <h1>Personal Profile</h1>
+      <p>Age: 20 years old</p>
+      <p>Birthdate: 05/24/2002</p>
+      <p>SHS: Taguig Science High Schol</p>
+    </div>
+    <div class="left">
+      <h1>Hobbies and Interests</h1>
+      <p> Hobbies: <br> online games, reading manga, watching anime series, playing instruments, creative writing, surfing the internet, and photography</p>
+      <p> Goals in life: <br>My short-term goals are to graduate with flying colors and to perform on live gigs. For my long-term goals, I aim to get a stable job, travel the world, and own a house and car</p>
+    </div>
+    <div class="left">
+      <h1>School Information</h1>
+      <p> Course: BSCS- Cybersecurity and forensics</p>
+      <p> Scholarship: Public HS Graduate - (50%)</p>
+      <p> Transferee/2nd Course: No</p>
+      <p> Did you chose this Course: Yes</p>
+      <p> IT Experience: <br>Python and Java programming<br>online and video gaming</p>
+    </div>
+  </div>
   <style>
+    .left {
+      width: 25%;
+      margin-top: 100px;
+      float: left;
+      margin-left: 50px;
+    }
     div.gallery {
       margin: 50px 0 auto 40px;
       background-color: #fff;
@@ -128,6 +155,19 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
+    div.content .left h1{
+      font-size: 30px;
+      padding-top:50px;
+      letter-spacing: 10px;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: rgb(255, 255, 255);
+      font-family:'Cinzel Decorative', cursive;
+      line-height: 1;
+      text-align: center;
+      background: -webkit-linear-gradient(rgb(115, 1, 157),rgb(255, 0, 191));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
     div.banner p{
       margin-top: 40px;
       background-color: rgba(0, 0, 0, 0.648);
@@ -139,6 +179,28 @@
       float:right;
       line-height: 1.65;
       color: white;
+    }
+    .content{
+      width: 100%;
+      text-align: center;
+      margin-left: 75px;
+
+    }
+    div.content .left p{
+      margin-top: 40px;
+      background-color: rgba(0, 0, 0, 0.648);
+      font-size: 20px;
+      width: 100%;
+      font-weight: bold;
+      font-family: 'Forum', cursive;
+      text-align: center;
+      float:right;
+      line-height: 1.65;
+      color: white;
+      outline-color: rgb(116, 10, 215);
+      outline-style: double;
+      outline-width: 5px;
+      outline-offset: 10px;
     }
     .site-footer {
       background-color:#26272b;
