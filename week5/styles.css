@@ -1,0 +1,240 @@
+.left {
+    width: 25%;
+    margin-top: 100px;
+    float: left;
+    margin-left: 50px;
+  }
+  div.gallery {
+    margin: 50px 0 auto 40px;
+    background-color: #fff;
+    border: 5px solid #fff;
+    float: left;
+    width: 250px;
+  }
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  div.banner h1{
+    font-size: 60px;
+    padding-top:50px;
+    letter-spacing: 10px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    font-family:'Cinzel Decorative', cursive;
+    line-height: 1;
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(115, 1, 157),rgb(255, 0, 191));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  div.content .left h1{
+    font-size: 30px;
+    padding-top:50px;
+    letter-spacing: 10px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    font-family:'Cinzel Decorative', cursive;
+    line-height: 1;
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(115, 1, 157),rgb(255, 0, 191));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  div.banner p{
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.648);
+    font-size: 20px;
+    width: 100%;
+    font-weight: bold;
+    font-family: 'Forum', cursive;
+    text-align: center;
+    float:right;
+    line-height: 1.65;
+    color: white;
+  }
+  .content{
+    width: 100%;
+    text-align: center;
+    margin-left: 75px;
+    overflow: hidden;
+    margin-bottom: 300px;
+
+  }
+  div.content .left p{
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.648);
+    font-size: 20px;
+    width: 100%;
+    font-weight: bold;
+    font-family: 'Forum', cursive;
+    text-align: center;
+    float:right;
+    line-height: 1.65;
+    color: white;
+    outline-color: rgb(116, 10, 215);
+    outline-style: double;
+    outline-width: 5px;
+    outline-offset: 10px;
+  }
+  .site-footer {
+      background-color:#26272b;
+      font-size:16px;
+    color:#737373;
+    line-height:24px;
+      padding: 20px 0 10px;
+      text-align: center;
+      position: relative;
+  }
+  .site-footer h6 {
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+  }
+  .site-footer .social-icons a {
+  width:40px;
+  height:40px;
+  line-height:40px;
+  border-radius:100%;
+  background-color:#33353d
+  }
+  .copyright-text {
+    margin-left: 0;
+    padding-bottom: 10px;
+  }
+  @media (max-width:991px) {
+  .site-footer [class^=col-] {
+    margin-bottom:30px
+  }
+  }
+  @media (max-width:767px) {
+    .site-footer {
+      padding-bottom:0
+    }
+    .site-footer .copyright-text,.site-footer .social-icons {
+      margin: auto;
+    }
+  }
+  .social-icons {
+    padding-left: 0px;
+    margin-bottom:0;
+    list-style:none
+  }
+  .social-icons li
+  {
+    display:inline-block;
+    margin-bottom:4px
+  }
+  .social-icons li.title
+  {
+    margin-right:15px;
+    text-transform:uppercase;
+    color:#96a2b2;
+    font-weight:700;
+    font-size:13px
+  }
+  .social-icons a{
+    background-color:#eceeef;
+    color:#818a91;
+    font-size:16px;
+    display:inline-block;
+    line-height:44px;
+    width:44px;
+    height:44px;
+    text-align:center;
+    margin-right:8px;
+    border-radius:100%;
+    -webkit-transition:all .2s linear;
+    -o-transition:all .2s linear;
+    transition:all .2s linear
+  }
+  .social-icons a:active,.social-icons a:focus,.social-icons a:hover
+  {
+    color:#fff;
+    background-color:#29aafe
+  }
+  .social-icons.size-sm a
+  {
+    line-height:34px;
+    height:34px;
+    width:34px;
+    font-size:14px
+  }
+  .social-icons a.facebook:hover
+  {
+    background-color:#3b5998
+  }
+  .social-icons a.linkedin:hover
+  {
+    background-color:#007bb6
+  }
+  @media (max-width:767px)
+  {
+    .social-icons li.title
+    {
+      display:block;
+      margin-right:0;
+      font-weight:600
+    }
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Sevillana&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+  /* body style */
+  body {
+    background-image: url('https://giffiles.alphacoders.com/215/215595.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+  .hero{
+    height: 100%;
+    width: 100%;
+    min-height: 100 vh;
+    background: linear-gradient(black, 80%, rgb(87, 6, 79));
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .hero header .logo h2 a{
+    display: block;
+    font-size: 48px;
+    margin-left: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+  }
+  .hero header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0 10px;
+  }
+  nav ul li{
+    list-style: none;
+    display: inline-block;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    margin-right: 20px;
+    font-size: 24px;
+    font-family: 'Forum', cursive;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: .4s;
+  }
+  nav ul li:not(:last-child) a:hover,
+  nav ul li:not(:last-child) a:focus{
+    border-bottom: 2px solid white;
+  }
