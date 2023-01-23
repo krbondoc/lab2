@@ -15,8 +15,8 @@ ratingsEl.forEach((el) => {
 sendBtn.addEventListener("click", () => {
   panel.innerHTML = `
 		<i class="fas fa-heart"></i>
-		<strong>Thank you, Florin!</strong>
-		<p>We'll use your feedback to improve our customer support performance.</p>
+		<strong>Thank you, User!</strong>
+		<p>We'll use your feedback to improve my website!.</p>
 		<button class="btn">Done</button>
 	`;
 });
