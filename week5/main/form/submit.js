@@ -15,8 +15,12 @@ ratingsEl.forEach((el) => {
 sendBtn.addEventListener("click", () => {
   panel.innerHTML = `
 		<i class="fas fa-heart"></i>
-		<strong>Thank you, User!</strong>
-		<p>We'll use your feedback to improve my website!.</p>
-		<button class="btn">Done</button>
+		<strong>Thank you!</strong>
+		<p>I'll use your feedback to improve my website!.</p>
+		<button class="btn" ="done">Done</button>
 	`;
 });
+
+doneBtn.addEventListener("click", () => {
+        location.href = "main\index.html";
+  });
