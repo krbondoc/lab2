@@ -20,7 +20,7 @@
 <section class="hero">
     <header>
       <div class="logo">
-        <h2 style="font-family: 'Sevillana', cursive;"><a href="index.html">K ' s  C o d e L a n d</a></h2>
+        <h2 style="font-family: 'Sevillana', cursive;"><a href="index.php">K ' s  C o d e L a n d</a></h2>
       </div>
       <nav>
         <ul>
