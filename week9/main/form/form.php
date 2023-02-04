@@ -13,7 +13,58 @@
 <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Sevillana&display=swap" rel="stylesheet">
 <style>
-
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Sevillana&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+    /* body style */
+    body {
+      background-image: url('https://giffiles.alphacoders.com/215/215595.gif');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      overflow-x: hidden;
+    }
+    .hero{
+      height: 100%;
+      width: 100%;
+      min-height: 100 vh;
+      background: linear-gradient(black, 80%, rgb(87, 6, 79));
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .hero header .logo h2 a{
+      display: block;
+      font-size: 48px;
+      margin-left: 20px;
+      font-weight: 700;
+      text-decoration: none;
+      color: white;
+    }
+    .hero header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 0 10px;
+    }
+    nav ul li{
+      list-style: none;
+      display: inline-block;
+    }
+    nav ul li a{
+      text-decoration: none;
+      color: white;
+      margin-left: 30px;
+      margin-right: 20px;
+      font-size: 24px;
+      font-family: 'Forum', cursive;
+      font-weight: 600;
+      border-bottom: 2px solid transparent;
+      transition: .4s;
+    }
+    nav ul li:not(:last-child) a:hover,
+    nav ul li:not(:last-child) a:focus{
+      border-bottom: 2px solid white;
+    }
 </style>
 </head>
 <body>  
