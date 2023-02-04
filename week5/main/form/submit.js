@@ -22,5 +22,6 @@ sendBtn.addEventListener("click", () => {
 });
 
 doneBtn.addEventListener("click", () => {
-        location.href = "main\index.html";
+  panel.innerHTML ='location.href = "main\index.html"'
+  ;
   });
