@@ -22,10 +22,10 @@
           </div>
           <nav>
             <ul>
-              <li><a href="cssapp.php">HTML/CSS Journey</a></li>
-              <li><a href="main/about-kyian.phpl">About Kyian</a></li>
-              <li><a href="main/aspects.php">Interesting Aspects in Life</a></li>
-              <li><a href="feedback.php">Feedback</a></li>
+              <li><a href="../cssapp.php">HTML/CSS Journey</a></li>
+              <li><a href="../about-kyian.phpl">About Kyian</a></li>
+              <li><a href="../aspects.php">Interesting Aspects in Life</a></li>
+              <li><a href="feeback.php">Feedback</a></li>
               <li><a href="form.php">Form</a></li>
             </ul>
           </nav>
