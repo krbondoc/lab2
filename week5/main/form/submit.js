@@ -17,7 +17,7 @@ sendBtn.addEventListener("click", () => {
 		<i class="fas fa-heart"></i>
 		<strong>Thank you!</strong>
 		<p>I'll use your feedback to improve my website!.</p>
-		<button class="btn" ="done">Done</button>
+		<button class="btn" id="done">Done</button>
 	`;
 });
 
