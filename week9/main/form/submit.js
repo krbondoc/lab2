@@ -18,8 +18,9 @@ sendBtn.addEventListener("click", () => {
 		<strong>Thank you!</strong>
 		<p>I'll use your feedback to improve my website!.</p>
 		<button class="btn" id="done">Done</button>
-    document.getElementById("doneBtn").onclick = function () {
-      location.href = "main\index.html";
-    }
 	`;
+});
+
+doneBtn.addEventListener("click", () => {
+  location.href = "main\index.html";
 });
