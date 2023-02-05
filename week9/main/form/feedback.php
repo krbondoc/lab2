@@ -56,7 +56,7 @@
                       <small>Satisfied</small>
                     </div>
                   </div>
-                  <button class="btn" id="send">Send</button>
+                  <button class="btn" id="next" onclick="window.location.href='form.php'">Next</button>
                 </div>        
       </section>
     <style>

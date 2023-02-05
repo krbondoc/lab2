@@ -12,15 +12,15 @@ ratingsEl.forEach((el) => {
   });
 });
 
-sendBtn.addEventListener("click", () => {
-  panel.innerHTML = `
-		<i class="fas fa-heart"></i>
-		<strong>Thank you!</strong>
-		<p>I'll use your feedback to improve my website!.</p>
-		<button class="btn" id="done">Done</button>
-	`;
-});
+// nextBtn.addEventListener("click", () => {
+//   panel.innerHTML = `
+// 		<i class="fas fa-heart"></i>
+// 		<strong>Thank you!</strong>
+// 		<p>I'll use your feedback to improve my website!.</p>
+// 		<button class="btn" id="done">Done</button>
+// 	`;
+// });
 
-doneBtn.addEventListener("click", () => {
-  location.href = "main\index.html";
-});
+// document.getElementById("next").onclick = function () {
+//   location.href = "www.yoursite.com";
+// };
