@@ -25,7 +25,6 @@
           <li><a href="about-kyian.php">About Kyian</a></li>
           <li><a href="aspects.php">Interesting Aspects in Life</a></li>
           <li><a href="form/feedback.php">Feedback</a></li>
-          <li><a href="form/form.php">Form</a></li>
         </ul>
       </nav>
     </header>
