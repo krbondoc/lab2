@@ -91,7 +91,7 @@
     ?>
 
   <h2 style="font-family: 'Forum', cursive;"><b>Leave A Comment</b></h2>
-  <p><span class="error">* required field</span></p>
+  <p style="color: white;"><span class="error">* required field</span></p>
   <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
     Name: <input type="text" name="name">
     <span class="error">* <?php echo $nameErr;?></span>
@@ -114,7 +114,7 @@
   </form>
 
   <?php
-  echo "<h2>Your Input:</h2>";
+  echo "<h2 style="font-family: 'Forum', cursive;">Your Input:</h2>";
   echo $name;
   echo "<br>";
   echo $email;
