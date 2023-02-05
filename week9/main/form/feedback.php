@@ -77,7 +77,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 20px;
+  margin: 100px 300px 100px 300px;
+  padding-top: 20px;
   text-align: center;
 }
 
