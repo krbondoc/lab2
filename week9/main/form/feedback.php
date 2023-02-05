@@ -78,7 +78,6 @@
   justify-content: center;
   align-items: center;
   margin: 50px 50px 50px 50px;
-  padding: 75px;
   text-align: center;
 }
 
