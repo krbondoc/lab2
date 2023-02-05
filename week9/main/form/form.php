@@ -146,7 +146,6 @@
     margin: 100px 350px 100px 350px;
     padding-top: 20px;
     padding-bottom: 20px;
-    text-align: center;
   }
 
   .panel-container strong {
