@@ -23,7 +23,7 @@
           <nav>
             <ul>
               <li><a href="../cssapp.php">HTML/CSS Journey</a></li>
-              <li><a href="../about-kyian.phpl">About Kyian</a></li>
+              <li><a href="../about-kyian.php">About Kyian</a></li>
               <li><a href="../aspects.php">Interesting Aspects in Life</a></li>
               <li><a href="feedback.php">Feedback</a></li>
             </ul>
