@@ -90,7 +90,7 @@
     }
     ?>
 
-  <h2 style="font-family: 'Forum', cursive;"><b>Please leave a comment to improve my website!</b></h2>
+  <h2 style="font-family: 'Forum', cursive;"><b>Leave A Comment</b></h2>
   <p><span class="error">* required field</span></p>
   <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
     Name: <input type="text" name="name">
@@ -143,7 +143,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 100px 350px 100px 350px;
+    margin: 100px 300px 100px 300px;
     padding-top: 20px;
     padding-bottom: 20px;
   }
