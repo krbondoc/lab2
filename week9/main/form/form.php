@@ -148,55 +148,13 @@
     padding-bottom: 20px;
   }
 
-  .panel-container strong {
+  .panel-container b {
     line-height: 20px;
   }
 
   .panel-container p {
-    margin: 25px 0;
+    margin: 10px 0;
     line-height: 20px;
-  }
-
-  .ratings-container {
-    display: flex;
-    margin: 20px 0;
-  }
-
-  .rating {
-    cursor: pointer;
-    flex: 1;
-    padding: 20px;
-    margin: 10px 5px;
-  }
-
-  .rating.active,
-  .rating:hover {
-    border-radius: 4px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-
-  .rating img {
-    width: 40px;
-  }
-
-  .rating small {
-    color: #555;
-    display: inline-block;
-    margin: 10px 0 0;
-  }
-
-  .rating.active small,
-  .rating:hover small {
-    color: #111;
-  }
-
-  .btn {
-    background-color: #201f1e;
-    border: 0;
-    border-radius: 4px;
-    color: rgb(193, 109, 238);
-    cursor: pointer;
-    padding: 12px 30px;
   }
 
   .fa-heart {
