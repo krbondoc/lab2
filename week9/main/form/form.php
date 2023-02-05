@@ -114,7 +114,7 @@
   </form>
 
   <?php
-  echo "<h2 style="font-family: 'Forum', cursive;">Your Input:</h2>";
+  echo "<h2>Your Input:</h2>";
   echo $name;
   echo "<br>";
   echo $email;
