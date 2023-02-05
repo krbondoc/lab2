@@ -90,7 +90,7 @@
     }
     ?>
 
-  <h2>PHP Form Validation Example</h2>
+  <h2>Please leave a comment to improve my website!</h2>
   <p><span class="error">* required field</span></p>
   <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
     Name: <input type="text" name="name">
@@ -110,7 +110,7 @@
     <input type="radio" name="gender" value="other">Other
     <span class="error">* <?php echo $genderErr;?></span>
     <br><br>
-    <input type="submit" name="submit" value="Submit">  
+    <input type="submit" name="submit" value="Submit" style="background-color: #201f1e; border: 0; border-radius: 4px; color: rgb(193, 109, 238); cursor: pointer; padding: 12px 30px;">  
   </form>
 
   <?php
