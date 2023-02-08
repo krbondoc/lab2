@@ -92,16 +92,16 @@
   <h2 style="font-family: 'Forum', cursive;"><b>Leave A Comment</b></h2>
   <p style="color: rgb(150, 4, 85);"><span class="error">* required field</span></p>
   <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
-    Name: <input type="text" name="name">
+    Name: <input type="text" name="user_name">
     <span class="error">* <?php echo $nameErr;?></span>
     <br><br>
-    E-mail: <input type="text" name="email">
+    E-mail: <input type="text" name="user_email">
     <span class="error">* <?php echo $emailErr;?></span>
     <br><br>
-    Website: <input type="text" name="website">
+    Website: <input type="text" name="user_web">
     <span class="error"><?php echo $websiteErr;?></span>
     <br><br>
-    Comment: <textarea name="comment" rows="5" cols="40"></textarea>
+    Comment: <textarea name="user_comm" rows="5" cols="40"></textarea>
     <br><br>
     Gender:
     <input type="radio" name="gender" value="female">Female
@@ -114,16 +114,57 @@
 
   <?php
   echo "<h2>Your Input:</h2>";
-  echo $name;
+  echo $user_name;
   echo "<br>";
-  echo $email;
+  echo $user_email;
   echo "<br>";
-  echo $website;
+  echo $user_web;
   echo "<br>";
-  echo $comment;
+  echo $user_comm;
   echo "<br>";
   echo $gender;
   ?>
+  <?php
+ 
+ // servername => localhost
+ // username => webprogmi212
+ // password => webprogmi212
+ // database name => webprogmi212
+ $conn = mysqli_connect("localhost", "webprogmi212", "webprogmi212", "webprogmi212");
+  
+ // Check connection
+ if($conn === false){
+     die("ERROR: Could not connect. "
+         . mysqli_connect_error());
+ }
+  
+ // Taking all 5 values from the form data(input)
+ $user_name =  $_REQUEST['user_name'];
+ $user_email = $_REQUEST['user_email'];
+ $user_web =  $_REQUEST['user_web'];
+ $user_comm = $_REQUEST['user_comm'];
+ $gender = $_REQUEST['gender'];
+  
+ // Performing insert query execution
+ // here our table name is krbondoc_myguests
+ $sql = "INSERT INTO krbondoc_myguests  VALUES (NULL, '$user_name',
+     '$user_email', '$user_web', '$user_comm', '$gender', current_timestamp())";
+  
+ if(mysqli_query($conn, $sql)){
+     echo "<h3>Data stored in a database successfully."
+         . " Please browse your localhost php my admin"
+         . " to view the updated data</h3>";
+
+     echo nl2br("\n$user_name\n $user_email\n "
+         . "$user_web\n $user_comm\n $gender");
+ } else{
+     echo "ERROR: Hush! Sorry $sql. "
+         . mysqli_error($conn);
+ }
+  
+ // Close connection
+ mysqli_close($conn);
+ ?>
   </section>
   <style>
     @import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
