@@ -24,7 +24,8 @@
           <li><a href="cssapp.php">HTML/CSS Journey</a></li>
           <li><a href="about-kyian.php">About Kyian</a></li>
           <li><a href="aspects.php">Interesting Aspects in Life</a></li>
-          <li><a href="form\feedback.php">Feedback Form</a></li>
+          <li><a href="form/feedback.php">Feedback Form</a></li>
+          <li><a href="form/printform.php">Visitors</a></li>
         </ul>
       </nav>
     </header>

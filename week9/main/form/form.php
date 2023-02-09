@@ -26,6 +26,7 @@
               <li><a href="../about-kyian.php">About Kyian</a></li>
               <li><a href="../aspects.php">Interesting Aspects in Life</a></li>
               <li><a href="feedback.php">Feedback Form</a></li>
+              <li><a href="printform.php">Visitors</a></li>
             </ul>
           </nav>
         </header>
@@ -147,7 +148,7 @@
   
  // Performing insert query execution
  // here our table name is krbondoc_myguests
- $sql = "INSERT INTO krbondoc_myguests  VALUES (NULL, '$user_name',
+ $sql = "INSERT INTO krbondoc_myguests VALUES (NULL, '$user_name',
      '$user_email', '$user_web', '$user_comm', '$gender', current_timestamp())";
   
  if(mysqli_query($conn, $sql)){
